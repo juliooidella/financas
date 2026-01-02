@@ -33,8 +33,19 @@ A segurança é o pilar principal deste projeto.
 
 Não se preocupe se você não for desenvolvedor. Siga estes passos simples:
 
+### 0. Instalação do Python e uv
+Antes de começar, você precisa de duas ferramentas base:
+
+1.  **Python**: 
+    - **Windows/Mac**: Baixe e instale em [python.org](https://www.python.org/downloads/). (Marque "Add Python to PATH" no Windows).
+    - **Linux**: Geralmente já instalado (`sudo apt install python3`).
+2.  **uv** (O gerenciador do projeto):
+    - **Windows**: `powershell -c "irm https://astral.sh/uv/install.ps1 | iex"`
+    - **Linux/Mac**: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+    *(Após instalar o uv, reinicie seu terminal)*.
+
 ### 1. Preparar o terreno
-Você precisará do **Python** e do **uv** (que gerencia tudo para você). Com eles instalados, abra seu terminal e digite:
+Com o Python e o uv prontos, abra seu terminal na pasta do projeto e digite:
 
 ```bash
 # Sincroniza o projeto e baixa as ferramentas necessárias
